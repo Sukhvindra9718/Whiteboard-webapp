@@ -139,27 +139,33 @@ section{
 @media (max-width:1000px) {
     .container{
         height: 100vh;
-        padding: 4px;
+        padding: 8px;
     }
     .tools-board{
-        height: 100%;
+        height: 90%;
         width: 20%;
         padding: 4px 12px 0;
 
     }
+    .drawing-board{
+        height: 90%;
+    }
     .drawing-board canvas{
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
     .tools-board .row{
-        margin-bottom: 2px;
+        margin-bottom: 0px;
     }
     .row .options{
-        margin: 3px 0 0 5px;
+        margin: 0px 0 0 5px;
     }
     .buttons button{
-        padding: 5px 0;
-        margin-bottom: 5px;
+        padding: 2px 0;
+        margin-bottom: 2px;
         font-size: 0.8rem;
+    }
+    .option #size-slider{
+        margin-top: 0px;
     }
 }
