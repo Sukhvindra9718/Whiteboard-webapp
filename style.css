@@ -143,17 +143,17 @@ section{
         justify-content: center;
     }
     .container{
-        height: 80vh;
+        height: 100vh;
         padding: 8px;
     }
     .tools-board{
-        height: 93%;
+        height: 100%;
         width: 20%;
         padding: 8px 12px 0;
 
     }
     .drawing-board{
-        height: 93%;
+        height: 100%;
     }
     .drawing-board canvas{
         width: 100%;
