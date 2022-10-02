@@ -145,17 +145,17 @@ section{
         width: 100%;
     }
     .container{
-        height: 90vh;
+        height: 100vh;
         padding: 8px;
     }
     .tools-board{
-        height: 85vh;
+        height: 95vh;
         /* width: 20%; */
         padding: 6px 12px 0;
 
     }
     .drawing-board{
-        height: 85vh;
+        height: 95vh;
     }
     .drawing-board canvas{
         width: 100%;
