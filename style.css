@@ -137,13 +137,18 @@ section{
     height: 100%;
 }
 @media (max-width:800px) {
+    body{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
     .container{
         height: 80vh;
         padding: 8px;
     }
     .tools-board{
         height: 93%;
-        width: 15%;
+        width: 20%;
         padding: 8px 12px 0;
 
     }
