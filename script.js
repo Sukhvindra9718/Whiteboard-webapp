@@ -120,3 +120,6 @@ saveImg.addEventListener("click",()=>{
 canvas.addEventListener("pointerdown",startDraw);
 canvas.addEventListener("pointermove",drawing);
 canvas.addEventListener("pointerup",() => isDrawing = false);
+canvas.addEventListener("touchstart",startDraw);
+canvas.addEventListener("touchmove",drawing);
+canvas.addEventListener("touchend",() => isDrawing = false);
