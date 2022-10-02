@@ -26,6 +26,7 @@ window.addEventListener("load",()=>{
     canvas.width = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
     setCanvasBackground();
+    alert("Please Rotate Your Device");
 })
 const drawRect = (e) => {
     // if fill color isn't checked draw a rect with border else draw rect with background
