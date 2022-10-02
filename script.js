@@ -114,12 +114,6 @@ saveImg.addEventListener("click",()=>{
     link.href = canvas.toDataURL(); // passing canvasData as link href value
     link.click(); // clicking link to download image
 })
-// canvas.addEventListener("mousedown",startDraw);
-// canvas.addEventListener("mousemove",drawing);
-// canvas.addEventListener("mouseup",() => isDrawing = false);
-canvas.addEventListener("pointerdown",startDraw);
-canvas.addEventListener("pointermove",drawing);
-canvas.addEventListener("pointerup",() => isDrawing = false);
-canvas.addEventListener("touchstart",startDraw);
-canvas.addEventListener("touchmove",drawing);
-canvas.addEventListener("touchend",() => isDrawing = false);
+canvas.addEventListener("mousedown",startDraw);
+canvas.addEventListener("mousemove",drawing);
+canvas.addEventListener("mouseup",() => isDrawing = false);
